@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Regular ;
+
+}
+@font-face {
+    font-family:Regular ;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 94px;
+    padding: 12px;
+    background-color: black;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+.header{
+    width: 500px;
+}
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note\ 1.png);
+    background-size: 100%;
+    text-indent: -99999999px;
+    
+}
+
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+header ul{
+    width: 300px;
+}
+
+header ul a{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ffffff00;
+    transition: 2s;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+main{
+    padding: 50px 80px 100px 109px;
+}
+main h2{
+    margin-bottom: 22px;
+}
+
+main article{
+    width: 300px;
+    height: 272px;
+    margin-bottom: 52px;
+
+}
+
+main section{
+    width: 300px;
+    height: 246px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    background-image: url(../img/sound\ 1.png);
+    background-size:25% ;
+    background-repeat: repeat-x;
+    background-position-y: 58px ;
+    position: relative;
+
+}
+
+main section img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: grayscale();
+}
+
+section h3{
+    margin: 145px auto 14px 12px;
+}
+
+section p{
+    margin-left: 12px;
+    
+}
+main section:hover img{ 
+    filter: none;
+}
+
+main section:hover{
+    box-shadow: 0 0 15px #7e7676;
+}
+
+.flex1{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+article .expt{
+    width: 300px;
+    height: 246px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    position: relative;
+}
+article .expt h3{
+    margin: 145px auto 14px 12px;
+}
+
+article .expt p{
+    margin-left: 12px;
+    
+}
+article .expt img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: grayscale();
+}
+
+main article .expt:hover img{ 
+    filter: none;
+}
+
+main article .expt:hover{
+    box-shadow: 0 0 15px #7e7676;
+}
+.socials{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    top: 214px;
+    right: 0;
+    /* background-color: #000000; */
+}
+
+.socials img{
+    width: 100%;
+    height: 50%;
+    filter: grayscale();
+}
+.socials:hover img{
+    filter: none;
+}
+
+footer{
+    width: 100%;
+    height: 354px;
+    background-color: #000000;
+    background-image: url(../img/music-note\ 1.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 28px ;
+    text-align: center;
+    padding-top: 204px;
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.last{
+    margin-top: 45px;
+}
+.article{
+    width: 60%;
+    
+}
+.article p{
+    margin-top: 10px;
+}
+.list{
+    padding: 10px;
+    
+    
+}
+.list p{
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.pad{
+    padding: 46px;
+}
+.middle{
+    width: 260px;
+    height: 65px;
+    /* background-color: #f87b7b; */
+    margin: 46px auto;
+    background-image: url(../img/sound\ 1.png);
+    background-size: 25%;
+}
+.inner{
+    padding: 51px 0 10px 0;
+}
+
+h4{
+    text-align: center;
+    font-size: 36px;
+}
+
+.pad1{
+    padding: 108px
+}
+
+.list:hover{
+    box-shadow: 0 0 10px rgba(107, 107, 107, 0.89);
+    background-color: rgba(107, 107, 107, 0.274);
+}
